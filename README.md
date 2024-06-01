@@ -1,51 +1,46 @@
 # WutheringWaves AHK flex v1.3
 
-AHK скрипт для Wuthering Waves.
+AHK script for Wuthering Waves.
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/poIhc7r3EX4/0.jpg)](https://www.youtube.com/watch?v=poIhc7r3EX4)
 
-⬆️Кликни на картинку⬆️
+⬆️Click on the picture⬆️
 
-👀 Внизу есть подробное описание!!! 
+👀 Below there is a detailed description!!!
 
-🔞 Кстати скрипт хорошо сочетается с другими [программами ( ͡° ͜ʖ ͡°), х10 риск, только для твинков.﻿﻿](https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/638632-pipsi-ww-wuthering-waves-cheat.html)
+🙏 Using scripts may lead to account blocking, use at your own risk.
 
-🙏 Использование скриптов может привести к блокировке учетной записи, использовать на свой страх и риск.
+__🚀Functional:🚀__
 
-[__✨Boosty✨__](https://boosty.to/kramar1337)
-[__✨SteamTrade✨__](https://steamcommunity.com/tradeoffer/new/?partner=176456946&token=QbYR9jmE)
+- Skip dialogues
+- Fastlut
+- Map
+- Overlay
+- Macros:
+ +Za warudo
+ + AutoAttack
+ + Chixia rage
+ + Shift Spam
+ + Sanhua hold
+ + Auto pistols
+ +EncoreN1
+ +RoverHavocN1
+ +DanjinE1
+ + High jump
+- Tray menu:
+ + Edit settings
+ + Semi-automatic update
+ + Manual import of settings
+ + Create a shortcut
 
-__🚀Функционал:🚀__
-
-- Скип диалогов
-- Фастлут
-- Карта
-- Оверлей
-- Макросы:
-  + Za warudo
-  + AutoAttack
-  + Chixia rage
-  + Shift Spam
-  + Sanhua hold
-  + Auto pistols
-  + EncoreN1
-  + RoverHavocN1
-  + DanjinE1
-  + High jump
-- Трей меню:
-  + Редактирование настроек
-  + Полуавтоматическое обновление
-  + Ручной импорт настроек
-  + Создание ярлыка
-
-:musical_keyboard:__Горячие клавиши:__:musical_keyboard:
+:musical_keyboard:__Hot keys:__:musical_keyboard:
 ```
-End - Завершить работу
-Ё - *Za warudo (Описание*)
-F1 - Оверлей
-F2 - Карта
-F - Фастлут
-Z - Скип диалогов
+End - Finish work
+Yo - *Za warudo (Description*)
+F1 - Overlay
+F2 - Map
+F - Fastlut
+Z - Skip dialogue
 V - Macro Key
 Numpad 0 - Off
 Numpad 1 - AutoAttack
@@ -53,25 +48,25 @@ Numpad 2 - Chixia rage
 Numpad 3 - Shift Spam
 Numpad 4 - Sanhua hold++
 Numpad 5 - Auto pistols
-Numpad 6 - *EncoreN1 (Описание*)
-Numpad 7 - *RoverHavocN1 (Описание*)
-Numpad 8 - *DanjinE1 (Описание*)
-Numpad 9 - High jump (Крюк + Любые мечники)
+Numpad 6 - *EncoreN1 (Description*)
+Numpad 7 - *RoverHavocN1 (Description*)
+Numpad 8 - *DanjinE1 (Description*)
+Numpad 9 - High jump (Hook + Any swordsmen)
 ```
 
 <details>
-<summary> 🛠️ Настройки 🛠️ </summary>
+<summary> 🛠️ Settings 🛠️ </summary>
 
-Или искать кфг "WWFlex\data\Config.ini"
+Or search for cfg "WWFlex\data\Config.ini"
 
-Или через меню "Трей меню => Edit Config"
+Or through the menu "Tray menu => Edit Config"
 
 ```
-;================Горячие клавиши
-; Можно использовать обычные названия клавиш.
+;================Hot keys
+; You can use regular key names.
 ; https://www.autohotkey.com/docs/v1/KeyList.htm
-; Но рекомендуется использовать виртуальные или скан коды
-; Где их брать? Гуглить или запускай WWFlex\data\debug\VirtualCodeKeys.ahk
+; But it is recommended to use virtual or scan codes
+; Where can I get them? Google or run WWFlex\data\debug\VirtualCodeKeys.ahk
 Key_ZaWarudo=vkC0
 Key_RUltiDefault=vk51
 Key_ESkillDefault=vk45
@@ -94,7 +89,7 @@ key_LabelNumpad6=Numpad6
 key_LabelNumpad7=Numpad7
 key_LabelNumpad8=Numpad8
 key_LabelNumpad9=Numpad9
-;================Вкл-выкл
+;================On-off
 Checkbox_Overlay=1
 Checkbox_Map=1
 Checkbox_Macro=1
@@ -102,7 +97,7 @@ Checkbox_SkipNPC=1
 Checkbox_Fastlyt=1
 Checkbox_PauseSuspend=0
 Checkbox_Reload=1
-;================Прочее
+;================Other
 RoverHavocTime1=60
 EncoreTime1=43
 SelectDefaultMacro=2
@@ -117,77 +112,77 @@ WindowFocus=ahk_class UnrealWindow
 </details>
 
 <details>
-<summary>:memo:Как запустить?::memo:</summary>
+<summary>:memo:How to run?::memo:</summary>
 
-1. Скачать и установить [Autohotkey.com](https://www.autohotkey.com/download/ahk-install.exe)
+1. Download and install [Autohotkey.com](https://www.autohotkey.com/download/ahk-install.exe)
 
-  "Custom installation" => "Unicode 64" => All checkboxes => "Install"
+ "Custom installation" => "Unicode 64" => All checkboxes => "Install"
 ![hippo](https://media.giphy.com/media/LerrohpjasApOHH9G1/giphy.gif)
 
-2. Скачать репозиторий (Code > [Download Zip👌](https://github.com/Kramar1337/WutheringWaves-AHK-flex/archive/main.zip))
+2. Download the repository (Code > [Download Zip👌](https://github.com/Kramar1337/WutheringWaves-AHK-flex/archive/main.zip))
 
-3. Запустить "WWFlex.ahk"
+3. Launch "WWFlex.ahk"
 
 </details>
 
 <details>
-<summary>📃 Подробное описание 📃</summary>
+<summary>📃 Detailed description 📃</summary>
 
-# Трей меню (это там где живут часы)
+# Tray menu (this is where the clock lives)
 
-Edit Config - открывает файл настроек "data\Config.ini"
+Edit Config - opens the settings file "data\Config.ini"
 
-Import Settings - ручной импорт настроек
+Import Settings - manual import of settings
 
-Force Update - принудительно перекачивает файлы с гитхаба, распакует и импортирует настройки. Перед использованием отключить антивирус или добавить в исключение.
+Force Update - forcibly downloads files from Github, unpacks and imports settings. Before use, disable your antivirus or add it to an exception.
 
-Create AHK shortcut - Создать ярлык на рабочем столе
+Create AHK shortcut - Create a shortcut on the desktop
 
-# Макросы
+# Macros
 
-`(Ё) - Za warudo. Останавливает время. Первым делом настроить "data\Config.ini" параметр "Key_RUltiDefault" кнопка на которую у тебя активируется ультимейт способность.
+`(Ё) - Za warudo. Stops time. The first step is to configure the "data\Config.ini" parameter "Key_RUltiDefault" - the button on which your ultimate ability is activated.
 
-Z - Скип диалогов.
+Z - Skip dialogues.
 
-Предусмотрено 2 режима. Переключение в "data\Config.ini" параметр "SkipNPCLockMode"
+There are 2 modes. Switching to "data\Config.ini" parameter "SkipNPCLockMode"
 
-1 - Автоматический режим, нажимаешь "Z" и скрипт скипает пока не пропадет курсор или повторное нажатие "Z".
+1 - Automatic mode, press “Z” and the script skips until the cursor disappears or you press “Z” again.
 
-0 - Ручной режим. Скрипт скипает пока нажата клавиша.
+0 - Manual mode. The script skips while the key is pressed.
 
-F1 - Оверлей
+F1 - Overlay
 
-Left - переключить оверлей
+Left - switch overlay
 
-Right - переключить оверлей
+Right - switch overlay
 
-F2 - Карта
+F2 - Map
 
-Первое нажатие открывает карту, если карты нет то запускает браузер по умолчанию и карту прописанную в настройках. Повторное нажатие разворачивает игру. "data\Config.ini" параметр "MapRunUrl" ссылка на карту. Имена окон на которые скрипт будет фокусировать свое внимание прописывать в "data\GroupNameMap.txt"
+The first click opens the map; if there is no map, it launches the default browser and the map registered in the settings. Pressing it again will expand the game. "data\Config.ini" parameter "MapRunUrl" link to the map. The names of the windows on which the script will focus its attention are written in "data\GroupNameMap.txt"
 
-F - Фастлут.
+F - Fastlut.
 
-Зажимаешь "F" и скрипт спамит "F". Есть 2 режима. Переключение в "data\Config.ini" параметр "FastlytFastMode", также регулируется задержка перед срабатыванием "FastlytDelayIn"
+You hold down "F" and the script spams "F". There are 2 modes. Switching to the "data\Config.ini" parameter "FastlytFastMode", the delay before triggering "FastlytDelayIn" is also adjusted
 
-1 - Быстрый режим. Добавляет спам колесико вниз. Также отдаляет камеру. Но в этой игре в отличае от GI невозможно собрать лут моментально. Задержка игры \ сервера.
+1 - Fast mode. Adds wheel down spam. Also moves the camera away. But in this game, unlike GI, it is impossible to collect loot instantly. Game\server delay.
 
-0 - Обычный режим.
+0 - Normal mode.
 
 V - Macro Key.
 
-Активирует макрос. Выбранный ниже. В "data\Config.ini" параметр "SelectDefaultMacro" выбирает активный макрос по умолчанию.
+Activates the macro. Selected below. In "data\Config.ini" the parameter "SelectDefaultMacro" selects the active default macro.
 
-Numpad 0 - Off - отключить.
+Numpad 0 - Off - disable.
 
-Numpad 1 - AutoAttack - Спам автоатаки.
+Numpad 1 - AutoAttack - Spam auto attacks.
 
-Numpad 2 - Chixia rage - Абузит анимацию прицеливания, Чися стреляет очень быстро.
+Numpad 2 - Chixia rage - Abuses the aiming animation, Chixia shoots very quickly.
 
-Numpad 3 - Shift Spam - Спамит Shift
+Numpad 3 - Shift Spam - Spam Shift
 
-Numpad 4 - Sanhua hold++ - Отжимает холд тычки в тайминг.
+Numpad 4 - Sanhua hold++ - Presses the hold of the poke in timing.
 
-Numpad 5 - Auto pistols - Быстрая стрельба на любых пистолетчиках, для драки не годится, только для головоломочек.
+Numpad 5 - Auto pistols - Fast shooting with any pistols, not suitable for fights, only for puzzles.
 
 Numpad 6 - *EncoreN1
 
@@ -195,71 +190,41 @@ Numpad 7 - *RoverHavocN1
 
 Numpad 8 - *DanjinE1
 
-*Добраться до 25 Ранга приключения, выполнить весь квест "Stygian Lacrimosa" , экипировать релик "Ultrasonic Pulse Chip".
+*Get to Adventure Rank 25, complete the entire quest "Stygian Lacrimos"
+Changes: 05/28/2024
 
-Numpad 9 - High jump (Крюк + Любые мечники), одиночное нажатие.
+ - Tweaking skip dialogues
+ - Chisi twist for the brow
+ - Overlay with information
 
-End - Завершить работу
+Changes: 05/26/2024
 
-Del - Приостановить. По умолчанию отключено. "data\Config.ini" параметр "Checkbox_PauseSuspend"
-
-Home - Перезапуск. По умолчанию отключено."data\Config.ini" параметр "Checkbox_Reload"
-
-</details>
-
-<details>
-<summary> 📃 Список изменений 📃 </summary>
-
-Изменения: 31.05.2024
-
- - `(тильт) - Za warudo (Накопить ульту и остановить время)
-
-Изменения: 30.05.2024
-
- - Numpad 3 - Shift Spam
- - Numpad 9 - High jump
-
-Изменения: 29.05.2024
-
- - Спам паутинки фулл хня
- - Numpad 6 - EncoreN1 (Описание*)
- - Numpad 7 - RoverHavoc N1 (Описание*)
- - Numpad 8 - Danjin E1 (Описание*)
-
-Изменения: 28.05.2024
-
- - Подкрутка скипа диалогов
- - Подкрутка Чиси для чела
- - Оверлей с инфой
-
-Изменения: 26.05.2024
-
- - Подкрутка фастлута
+ - Tweaking the fastloot
  - Numpad 5 - Auto pistols
- - Sanhua hold ++
- - Esc - Прервать залипший поток
- - Открывашка настроек в трей меню
- - Перенос настроек в конфиг
- - Импорт настроек в трей меню
- - Обновлятор в трей меню
+ - Sanhua hold++
+ - Esc - Interrupt the stuck thread
+ - Settings opener in the tray menu
+ - Transferring settings to config
+ - Import settings to tray menu
+ - Updater in the tray menu
 
-Изменения: 25.05.2024
+Changes: 05/25/2024
 
- - Подкрутки таймингов
- - Бинд на карту
+ - Timing tweaks
+ - Bind to card
  - Numpad 4 - Sanhua hold
 
 
-Изменения: 22.05.2024
+Changes: 05/22/2024
 
- - Начало положено
- - T - Спам паутинки
- - F - Фастлут
- - Z - Скип диалогов
+ - A start
+ - T - Web spam
+ - F - Fastlut
+ - Z - Skip dialogues
  - V - Macro Key
  - Numpad 0 - Off
  - Numpad 1 - AutoAttack
  - Numpad 2 - Chixia rage
  - Numpad 3 - Bhop
-  
+
 </details>
